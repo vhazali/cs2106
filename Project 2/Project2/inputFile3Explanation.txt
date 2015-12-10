@@ -1,0 +1,59 @@
+Input :
+1 524288
+
+Interpreted as: 
+Write,
+s = 1
+p = 0
+w = 0
+expected result = m 512
+
+Input :
+1 524289
+
+Interpreted as: 
+Write,
+s = 1
+p = 0
+w = 1
+expected result = h 1024
+
+Input :
+1 0
+
+Interpreted as: 
+Write,
+s = 0
+p = 0
+w = 0
+expected result = error
+
+Input :
+1 524290
+
+Interpreted as: 
+Write,
+s = 1
+p = 0
+w = 2
+expected result = h 1536
+
+Input :
+1 524291
+
+Interpreted as: 
+Write,
+s = 1
+p = 0
+w = 3
+expected result = error
+
+Upon completion of initialisation, only frames 1, 2 and 3 are free.
+
+After first two inputs, only frame 3 is free.
+
+Third input attempts to create a new PT, but there are insufficient free frames, thus an error should be returned
+
+Fourth input takes up the last free frame
+
+Fifth input attempts to create a new page, but there are insufficient free frames, thus an error should be returned

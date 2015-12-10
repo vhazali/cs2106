@@ -1,0 +1,31 @@
+Input :
+1 524288
+
+Interpreted as: 
+Write,
+s = 1
+p = 0
+w = 0
+expected result = 512
+
+Input :
+1 0
+
+Interpreted as: 
+Write,
+s = 0
+p = 0
+w = 0
+expected result = 1024
+
+Attempt to ensure that the allocation of Page tables is done only when there are two consecutive empty frames.
+
+After init, frames free are 1, 2, 5-10 and 13-1024
+Frame 0 is taken by ST, 3 and 4 is taken by Page table created by init, 11 and 12 also by page table created by init.
+
+After first input, frame 1 is taken.
+
+Second input attempts to create a new PT and a new page.
+Correct implementation would create a new PT at frames 5 and 6, and a new page at frame 2. 
+
+At the end of the file, frames taken are 0-6 , 11 and 12.

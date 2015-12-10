@@ -1,0 +1,79 @@
+Input:
+1 0
+
+Interpreted as: 
+Write
+s = 0
+p = 0
+w = 0
+expected result = m 4096
+
+Input:
+0 1048576
+
+Interpreted as: 
+Read
+s = 2
+p = 0
+w = 0
+expected result = m 512
+
+Input:
+1 1048586
+
+Interpreted as: 
+Write
+s = 2
+p = 0
+w = 10
+expected result = h 522
+
+Input:
+1 1049088
+
+Interpreted as: 
+Write
+s = 2
+p = 1
+w = 0
+expected result = pf
+
+Input:
+1 34498
+
+Interpreted as: 
+Write
+s = 0
+p = 67
+w = 194
+expected result = m 4802
+
+Input:
+1 558899
+
+Interpreted as: 
+Write
+s = 1
+p = 67
+w = 307
+expected result = m 7475
+
+Input:
+1 42924
+
+Interpreted as: 
+Write
+s = 0
+p = 83
+w = 428
+expected result = m 8108
+
+Input:
+1 1000
+
+Interpreted as: 
+Write
+s = 0
+p = 1
+w = 488
+expected result = m 8680

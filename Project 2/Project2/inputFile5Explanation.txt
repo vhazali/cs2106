@@ -1,0 +1,369 @@
+Input:
+
+
+Interpreted as: 
+Read
+s = 0
+p = 0
+w = 23
+expected result = m 16919
+
+Input:
+
+
+Interpreted as: 
+Write
+s = 0
+p = 0
+w = 511
+expected result = h 17407
+
+Input:
+
+
+Interpreted as: 
+Read
+s = 0
+p = 1
+w = 0
+expected result = m 17408
+
+Input:
+
+
+Interpreted as: 
+Write
+s = 0
+p = 1
+w = 511
+expected result = h 17919
+
+Input:
+
+
+Interpreted as: 
+read
+s = 0
+p = 6
+w = 511
+expected result = pf
+
+Input:
+
+
+Interpreted as: 
+read
+s = 18
+p = 0
+w = 0
+expected result = pf
+
+Input:
+
+
+Interpreted as: 
+write
+s = 18
+p = 0
+w = 15
+expected result = pf
+
+Input:
+
+
+Interpreted as: 
+read
+s = 0
+p = 5
+w = 23
+expected result = m 19479
+
+Input:
+
+
+Interpreted as: 
+read
+s = 0
+p = 5
+w = 24
+expected result = h 19480
+
+Input:
+
+
+Interpreted as: 
+read
+s = 15
+p = 5
+w = 23
+expected result = err
+
+Input:
+
+
+Interpreted as: 
+write
+s = 15
+p = 5
+w = 23
+expected result = m 19991
+
+Input:
+
+
+Interpreted as: 
+read
+s = 15
+p = 5
+w = 23
+expected result = h 19991
+
+Input:
+
+
+Interpreted as: 
+write
+s = 15
+p = 5
+w = 24
+expected result = h 19992
+
+Input:
+
+
+Interpreted as: 
+read
+s = 15
+p = 1023
+w = 3
+expected result = err
+
+Input:
+
+
+Interpreted as: 
+write
+s = 15
+p = 1023
+w = 2
+expected result = m 26114
+
+Input:
+
+
+Interpreted as: 
+write
+s = 15
+p = 1000
+w = 23
+expected result = m 32279
+
+Input:
+
+
+Interpreted as: 
+read
+s = 15
+p = 1000
+w = 33
+expected result = h 32289
+
+Input:
+
+
+Interpreted as: 
+read
+s = 0
+p = 5
+w = 23
+expected result = h 19479
+
+Input:
+
+
+Interpreted as: 
+read
+s = 17
+p = 4
+w = 23
+expected result = m 29719
+
+Input:
+
+
+Interpreted as: 
+read
+s = 511
+p = 3
+w = 23
+expected result = m 25623
+
+Input:
+
+
+Interpreted as: 
+read
+s = 15
+p = 1000
+w = 33
+expected result = h 32289
+
+Input:
+
+
+Interpreted as: 
+write
+s = 511
+p = 1023
+w = 23
+expected result = m 35351
+
+Input:
+
+
+Interpreted as: 
+read
+s = 511
+p = 1023
+w = 511
+expected result = h 35839
+
+Input:
+
+
+Interpreted as: 
+read
+s = 511
+p = 1000
+w = 23
+expected result = err
+
+Input:
+
+
+Interpreted as: 
+write
+s = 511
+p = 1000
+w = 23
+expected result = m 32791
+
+Input:
+
+
+Interpreted as: 
+write
+s = 18
+p = 1023
+w = 511
+expected result = pf
+
+Input:
+
+
+Interpreted as: 
+read
+s = 18
+p = 1023
+w = 0
+expected result = pf
+
+Input:
+
+
+Interpreted as: 
+read
+s = 23
+p = 1023
+w = 511
+expected result = err
+
+Input:
+
+
+Interpreted as: 
+write
+s = 23
+p = 1023
+w = 511
+expected result = m 34815
+
+Input:
+
+
+Interpreted as: 
+write
+s = 23
+p = 1023
+w = 0
+expected result = h 34304
+
+Input:
+
+
+Interpreted as: 
+write
+s = 255
+p = 1023
+w = 511
+expected result = m 35327
+
+Input:
+
+
+Interpreted as: 
+write
+s = 256
+p = 0
+w = 0
+expected result = m 37888
+
+Input:
+
+
+Interpreted as: 
+write
+s = 32
+p = 1023
+w = 511
+expected result = m 39935
+
+Input:
+
+
+Interpreted as: 
+read
+s = 32
+p = 1023
+w = 0
+expected result = h 39424
+
+Input:
+
+
+Interpreted as: 
+read
+s = 15
+p = 1023
+w = 0
+expected result = m 26112
+
+Input:
+
+
+Interpreted as: 
+write
+s = 15
+p = 1023
+w = 0
+expected result = h 26112
+
+Input:
+
+
+Interpreted as: 
+read
+s = 15
+p = 1023
+w = 511
+expected result = h 26623

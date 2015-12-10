@@ -1,0 +1,75 @@
+Input:
+0 1048576 
+
+Interpreted as: 
+Read,
+s = 2
+p = 0
+w = 0
+expected result = 512
+
+Rationale:
+Accessing an already declared page
+To check if init was done properly for segment 2
+
+
+Input:
+0 1572864 
+
+Interpreted as:
+Read,
+s = 3
+p = 0
+w = 0
+expected result = 1024
+
+Rationale:
+Accessing an alredy declared page
+To check if init was done properly for segment 3
+
+Input:
+1 1049088 
+
+Interpreted as:
+
+s = 2
+p = 1
+w = 0
+expected result = 1536
+
+Rationale:
+Test out creating a new page from an available slot in the page table
+
+Input:
+1 1573376 
+
+Interpreted as:
+
+s = 3
+p = 1
+w = 0
+expected result = 3072
+
+Rationale:
+Test out creating a new page from an available slot in the page table
+Ensure that bitMap updates the bits properly when a new page is declared
+
+Input:
+1 524288
+Interpreted as:
+
+s = 1
+p = 0
+w = 0
+expected result = 4608
+
+Rationale:
+Test out creating both a new page table and a new page together.
+Attempts to create a new page table by accessing segment 1 which is undeclared
+Then attempts to create a new page by accessing page 0 of segment 1, which is available
+
+
+
+
+Untested:
+bitMap having to find 2 consecutive empty slots before allocating it to a page table
